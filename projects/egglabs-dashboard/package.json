@@ -6,6 +6,7 @@
     "@angular/core": "^13.0.0"
   },
   "dependencies": {
+    "ngx-d3-charts": "^1.0.1",
     "tslib": "^2.3.0"
   }
 }

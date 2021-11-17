@@ -3,9 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'egglabs-dashboard',
   template: `
-    <div>
+    <div class="container">
       <h2>Dashboard</h2>
-      <div class="columns">
+      <div class="column">
         <div class="column">
           <egglabs-graph></egglabs-graph>
         </div>
