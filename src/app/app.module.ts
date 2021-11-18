@@ -1,3 +1,4 @@
+import { VanguardActivFeedModule } from './../../projects/vanguard-activ-feed/src/lib/vanguard-activ-feed.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    VanguardActivFeedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -21,7 +21,13 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "vanguard-activ-feed": [
+        "dist/vanguard-activ-feed/vanguard-activ-feed",
+        "dist/vanguard-activ-feed"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
