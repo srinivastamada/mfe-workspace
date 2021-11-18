@@ -1,12 +1,24 @@
 {
-  "name": "egglabs-dashboard",
+  "name": "@egglabs/dashboard",
   "version": "0.0.1",
+  "description": "description",
+  "author": {
+    "name": "Srinivas Tamada",
+    "email": "srinivas@9lessons.info"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/egglabs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "egglabs-dashboard"
+},
   "peerDependencies": {
     "@angular/common": "^13.0.0",
-    "@angular/core": "^13.0.0"
+    "@angular/core": "^13.0.0",
+    "ngx-d3-charts": "^1.0.1"
   },
   "dependencies": {
-    "ngx-d3-charts": "^1.0.1",
     "tslib": "^2.3.0"
   }
 }
